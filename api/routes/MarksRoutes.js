@@ -3,9 +3,6 @@ const router = express.Router();
 const marks = require('../controllers/MarksController');
 
 
-// //Get all tasks
-// router.get('/', todoList.listAllTasks);
-
 // // //Create new task
 router.post('/', marks.addMarks);
 
